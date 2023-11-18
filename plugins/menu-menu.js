@@ -21,27 +21,16 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `  ►🦆 𝗣𝗔𝗧𝗢 𝗕𝗢𝗧  ►🦆
+    const str = `  🌸  𝕭𝖔𝖒𝖇 𝕭𝖔𝖙  🌸
 
- *Ey , Hola PatoLover ${taguser} Te Presento Este Bot 🦆*
-
- ◤━━━━━━━━━━━◥
- ►🦆 *Owner :* _Pato_
- ►🦆 *Numero:* _+51936501154_
- ►🦆 *Comprar Bot :* _+51906528530_
- ►🦆 *Tipo De Bot:* _Pato Bot Premiun_
- ◣━━━━━━━━━━━◢
-
-
- *« COMANDOS BOT »*
+ *Ey , Hola Bombita ${taguser} Te Presento Este Bot 🌸*
 
  ◤━━━━━━━━━━━◥
- ►🦆 _${usedPrefix}grupos_
- ►🦆 _${usedPrefix}estado_
- ►🦆 _${usedPrefix}infobot_
- ►🦆 _${usedPrefix}donar_
- ►🦆 _${usedPrefix}owner_
- ►🦆 _${usedPrefix}fixmsgespera_
+ ►🌸 *Owner :* _Teffy_
+ ►🌸 *Numero:* _+56931336439_
+ ►🌸 *Comprar Bot :* _+51906528530_
+ ►🌸 *Tipo De Bot :* _Bomb Premiun_
+ ►🌸 *Ig Team :* _@bombgaming.fem_
  ◣━━━━━━━━━━━◢
 
  *« MENUS ADICIONALES »*
