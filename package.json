@@ -1,7 +1,7 @@
 {
-  "name": "PatoBot",
+  "name": "Bombasticas",
   "version": "1.0.0",
-  "description": "Pato El Mejor Bot",
+  "description": "Bomb El Mejor Bot",
   "main": "index.js",
   "type": "module",
   "directories": {
@@ -16,16 +16,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/TeamObvious/VersionPato",
+  "homepage": "https://github.com/TeamObvious/Bomb-BOT",
   "author": {
     "name": "TeamObvious"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TeamObvious/VersionPato.git"
+    "url": "git+https://github.com/TeamObvious/Bomb-BOT.git"
   },
   "bugs": {
-    "url": "https://github.com/TeamObvious/VersionPato/issues"
+    "url": "https://github.com/TeamObvious/Bomb-BOT/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
