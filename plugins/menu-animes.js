@@ -19,7 +19,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
-║    ◉— *🦆 𝙋𝘼𝙏𝙊 𝘽𝙊𝙏 𝙄𝙉𝙑𝙊𝘾𝘼 🦆* —◉
+║    ◉— *🌸  𝕭𝖔𝖒𝖇 𝕭𝖔𝖙  🌸* —◉
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
 ║➤ *𝗛ola, ${taguser} Mira Estos Comandos 😝*
 ╰═══╡✯✯✯✯✯✯✯✯✯╞═══╯
