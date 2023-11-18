@@ -351,14 +351,14 @@ global.reloadHandler = async function(restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate);
   }
 
-  conn.welcome = '໒꒰ྀི´ ˘ ` ꒱ྀིა🌷 ¡Bienvenido/a\n@user!';
-  conn.bye = '໒꒰ྀི´ ˘ ` ꒱ྀིა🥀 ¡Hasta luego!\n@user';
-  conn.spromote = '[⋆˚☃️˖°.] @user Fue promovido a administrador.';
-  conn.sdemote = '[⋆˚☃️˖°.] @user Fue degradado de administrador.';
-  conn.sDesc = '[⋆˚☃️˖°.] La descripción del grupo ha sido modificada.';
-  conn.sSubject = '[⋆˚☃️˖°.] El nombre del grupo ha sido modificado.';
-  conn.sIcon = '[⋆˚☃️˖°.] Se ha cambiado la foto de perfil del grupo.';
-  conn.sRevoke = '[⋆˚☃️˖°.] El enlace de invitación al grupo ha sido restablecido.';
+  conn.welcome = '¡Bienvenida bombita nueva, espero te sientas comoda en el team🌸!⊹ִֶָ \n@user ';
+  conn.bye = '¡No vuelvas bot 🎀! \n@user';
+  conn.spromote = '⊹ ִֶָ (*・ｘ・) @user Fuiste promovida a super bombita💣🌸 ';
+  conn.sdemote = ' ( ´-ω-) @user Fue degradado a Bombita común:( ';
+  conn.sDesc = ' ( ＞Д＜；) La descripción del grupo ha sido modificada ';
+  conn.sSubject = '⊹ ִֶָ 🌸 El nombre del grupo ha sido modificado ';
+  conn.sIcon = '⊹ ִֶָ 💋 Se ha cambiado la foto de perfil del grupo ';
+  conn.sRevoke = '⊹ ִֶָ 🌺 El enlace de invitación al grupo ha sido restablecido ';
 
   conn.handler = handler.handler.bind(global.conn);
   conn.participantsUpdate = handler.participantsUpdate.bind(global.conn);
@@ -512,7 +512,7 @@ setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `♡ Hola Soy Pato Bot / [🦆 ] Uptime : ${uptime} ♡`;
+  const bio = `𝗕𝗢𝗠𝗕𝗔𝗦𝗧𝗜𝗖𝗔𝗦 𝗘𝗟 𝗠𝗘𝗝𝗢𝗥 𝗕𝗢𝗧 𝗙𝗘𝗠𝗘𝗡𝗜𝗡𝗢 💣`;
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
