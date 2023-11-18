@@ -13,7 +13,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/TeamObvious/VersionPatogit && cd VersionPato
+git clone https://github.com/TeamObvious/Bomb-BOT.git && cd Bomb-BOT
 ```
 
 ```bash
